@@ -1,0 +1,59 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Centered Alert */
+.alert {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Danger Alert */
+.alert-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Centered Text */
+.text-center {
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .alert {
+        font-size: 20px;
+    }
+}
